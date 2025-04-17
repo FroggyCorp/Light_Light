@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMI-1275-05TH
+D 12 mm, 5 Vdc, 85 dB, Through Hole, Magnetic Audio Indicator Buzzer
+K
+F https://www.sameskydevices.com/product/resource/cmi-1275-05th.pdf
+$ENDCMP
+#
+#End Doc Library

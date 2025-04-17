@@ -1,0 +1,3952 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "10666cc7-bb5d-4a19-9b8c-62c65e79b8fc")
+	(paper "A4")
+	(lib_symbols
+		(symbol "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S10"
+				(at 6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+				(at 6.35 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "New SchematicLib"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Omten Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13_0_0"
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 8.89 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy 5.08 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -3.81) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 6.35 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -7.62) (xy 2.54 -8.89) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 10.16 -2.54) (xy 10.16 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 0)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13_1_0"
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode thermal pad ep plcc2 5.7x3.0 generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_0_1"
+				(polyline
+					(pts
+						(xy -0.508 1.905) (xy 0.254 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.397) (xy 1.27 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.889) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0.889) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "Thermal\nPad"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 96.52 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "070a5361-fa7e-4a8c-9211-a1a32afb132e")
+	)
+	(junction
+		(at 73.66 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7df006-a4d4-4b8c-87c6-0a3a38486218")
+	)
+	(junction
+		(at 73.66 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef17b1c-bed1-4acd-97b7-86a18f67fbc3")
+	)
+	(junction
+		(at 39.37 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f62ac2-fe24-4635-b727-dab861e20ec9")
+	)
+	(junction
+		(at 138.43 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20e77fd2-5e0b-4d1b-aa86-2dd5397761a6")
+	)
+	(junction
+		(at 229.87 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23c35c00-b934-4b0a-a2b5-5dd79ec8c3c9")
+	)
+	(junction
+		(at 39.37 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "268b9a94-3579-44e8-8ab3-524e3d145db4")
+	)
+	(junction
+		(at 231.14 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33848ffc-8c78-4f86-b48e-d7e1cc46bb45")
+	)
+	(junction
+		(at 39.37 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "364826a8-10ab-49d2-b7f0-adfdfc9fd84b")
+	)
+	(junction
+		(at 96.52 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39886537-2be3-4ab1-9e1d-6805fc81118a")
+	)
+	(junction
+		(at 96.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a557df9-9fa9-4e4a-abb8-a812906761d1")
+	)
+	(junction
+		(at 73.66 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44f6dfc5-63f4-47e9-9b1c-82589045eaf9")
+	)
+	(junction
+		(at 229.87 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c654530-4170-45b1-a70e-909724894661")
+	)
+	(junction
+		(at 39.37 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5193c121-87b7-483c-95d7-c13f17103f36")
+	)
+	(junction
+		(at 73.66 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "528811ac-32b1-4d1b-a287-a11675b781b8")
+	)
+	(junction
+		(at 96.52 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "553696c1-f615-4b35-98a5-a893388d1f59")
+	)
+	(junction
+		(at 96.52 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "604cf953-0eaf-406d-82b5-61f9b2388fc8")
+	)
+	(junction
+		(at 39.37 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62368140-8c05-40ec-9870-92cfe8d4de5d")
+	)
+	(junction
+		(at 231.14 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "628d33ed-bfec-4703-bd2f-79ff18561be0")
+	)
+	(junction
+		(at 73.66 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834f3777-cad2-4670-ad44-18e7ecc1056b")
+	)
+	(junction
+		(at 130.81 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "847df6b5-8e8c-4101-a117-38b46d0e699c")
+	)
+	(junction
+		(at 39.37 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "949885b8-5e6e-41b9-898e-4aa2bba0d60a")
+	)
+	(junction
+		(at 96.52 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4c5ebf4-d428-4f09-b5a4-cbc5444f43bd")
+	)
+	(junction
+		(at 130.81 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d54622-0c15-4b35-9f3d-a0fd45e79583")
+	)
+	(junction
+		(at 39.37 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d62fa9-7524-4d84-8342-47395800248d")
+	)
+	(junction
+		(at 138.43 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aad1b261-7705-4d54-b437-28e69d340caf")
+	)
+	(junction
+		(at 138.43 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aae6085a-aa58-47a2-92ea-26b0dcdcf85e")
+	)
+	(junction
+		(at 73.66 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c90a471c-6e68-4f56-a7f3-9089b3add8bb")
+	)
+	(junction
+		(at 130.81 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0a1bd03-425d-43ae-913b-0f5074e8952e")
+	)
+	(junction
+		(at 96.52 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c52a16-105a-48b7-a683-f188f36c6c0f")
+	)
+	(junction
+		(at 73.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d43f580a-daae-420e-a95e-ed20ba9a570f")
+	)
+	(junction
+		(at 96.52 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dab76fa6-8cd7-408f-96b0-3ecba8494eea")
+	)
+	(junction
+		(at 130.81 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e632c184-988b-4249-b6a2-7de34ee975be")
+	)
+	(junction
+		(at 229.87 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7c51ef8-c061-40db-91d2-0d4569894e22")
+	)
+	(junction
+		(at 96.52 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecbc28dd-2e59-4889-a9bb-0513aaf4955b")
+	)
+	(junction
+		(at 73.66 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3a3c053-f327-4c54-bcb1-6f7180d3bc52")
+	)
+	(junction
+		(at 39.37 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4223580-691a-4f19-8d1d-686e4c9bb552")
+	)
+	(junction
+		(at 73.66 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f675a421-8521-4264-969e-7f7396965535")
+	)
+	(junction
+		(at 231.14 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe387bbf-c783-42ca-993e-0c911746f248")
+	)
+	(no_connect
+		(at 201.93 44.45)
+		(uuid "198a818e-0f6d-4dcc-969e-48824dd5b3ae")
+	)
+	(no_connect
+		(at 201.93 26.67)
+		(uuid "242e8d9d-8904-41b3-b953-74b84468fdfc")
+	)
+	(no_connect
+		(at 201.93 62.23)
+		(uuid "24d2585a-bf00-4368-b959-45b30a8b8079")
+	)
+	(no_connect
+		(at 201.93 154.94)
+		(uuid "4b67e289-9551-4875-99a7-d8e16efd9dca")
+	)
+	(no_connect
+		(at 201.93 97.79)
+		(uuid "c7879295-be0b-4171-ab0c-625ede5c9f24")
+	)
+	(no_connect
+		(at 201.93 173.99)
+		(uuid "d28e5ef4-c5d3-4776-8d2c-31e77c517db6")
+	)
+	(no_connect
+		(at 201.93 115.57)
+		(uuid "e5494977-3510-41ac-9fd7-9b99145db7e8")
+	)
+	(no_connect
+		(at 201.93 134.62)
+		(uuid "f741a1c5-7905-41a4-bfa0-d8070769db2e")
+	)
+	(no_connect
+		(at 201.93 80.01)
+		(uuid "fe5f6a29-ff69-47cf-a91c-97418a868cd5")
+	)
+	(wire
+		(pts
+			(xy 96.52 139.7) (xy 138.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e67e55-a4f5-4651-aa2e-e7b732637e1d")
+	)
+	(wire
+		(pts
+			(xy 231.14 55.88) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092be1c9-102a-4057-8c94-91ae269b5ea1")
+	)
+	(wire
+		(pts
+			(xy 138.43 157.48) (xy 138.43 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de27346-9550-44d8-8bcb-744febea5530")
+	)
+	(wire
+		(pts
+			(xy 96.52 46.99) (xy 96.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec847e7-fddc-4282-a1dc-81a9f15588c3")
+	)
+	(wire
+		(pts
+			(xy 231.14 20.32) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1705ad3f-f7bb-4f38-b8c3-7a8bd762a1e2")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1761eadb-43c0-41ab-a432-bcadf5938b96")
+	)
+	(wire
+		(pts
+			(xy 240.03 55.88) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df2f53e-d536-4b8f-a08a-0b4c9f3a979c")
+	)
+	(wire
+		(pts
+			(xy 231.14 38.1) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2151a90f-605e-4d9b-aa54-14ba8b90cf6d")
+	)
+	(wire
+		(pts
+			(xy 96.52 121.92) (xy 138.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c2703b-d00d-4461-978f-1c1444a557cb")
+	)
+	(wire
+		(pts
+			(xy 130.81 34.29) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cedca7-b51c-40e7-ae6b-659d0d4125d1")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 73.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27372f05-b206-4f4e-8012-f65c28e96e46")
+	)
+	(wire
+		(pts
+			(xy 96.52 170.18) (xy 96.52 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c80a6c-7d10-40cc-9b81-e6ded6645307")
+	)
+	(wire
+		(pts
+			(xy 229.87 109.22) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b950586-c576-48e7-8124-0befcd483232")
+	)
+	(wire
+		(pts
+			(xy 39.37 134.62) (xy 39.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a4724c-5d41-40f2-b149-b2a625a9761b")
+	)
+	(wire
+		(pts
+			(xy 39.37 63.5) (xy 39.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e7e6bc-f4f3-4e10-9f52-a37dc6e50691")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d27b64-576c-42dc-9b22-f7570fc50258")
+	)
+	(wire
+		(pts
+			(xy 39.37 99.06) (xy 39.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34531f8e-5d1d-40e7-a76c-cd7c13da6fef")
+	)
+	(wire
+		(pts
+			(xy 73.66 134.62) (xy 73.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3503dc83-2c61-4faa-aaa5-044b5832fb31")
+	)
+	(wire
+		(pts
+			(xy 96.52 134.62) (xy 99.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369a5021-251f-4b2c-918e-827eb2135fdf")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a96900-dda7-4c7b-9f7c-bf447e59a02b")
+	)
+	(wire
+		(pts
+			(xy 39.37 99.06) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c653d96-0fc3-47e8-83ea-a820dbf3a664")
+	)
+	(wire
+		(pts
+			(xy 96.52 29.21) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebe4226-1666-4c3d-8351-995e340e8a52")
+	)
+	(wire
+		(pts
+			(xy 73.66 170.18) (xy 73.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409a25fd-9920-4f4e-a3f0-bf2b345aaf12")
+	)
+	(wire
+		(pts
+			(xy 39.37 152.4) (xy 39.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428a0d34-49eb-406a-a00a-e9753f0fee67")
+	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 99.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cff84f0-4618-4ba6-b996-62d72bbe3ccb")
+	)
+	(wire
+		(pts
+			(xy 96.52 157.48) (xy 138.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523dfba0-e2d0-4056-af87-869684a06e7f")
+	)
+	(wire
+		(pts
+			(xy 34.29 97.79) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ccf734-8fc1-48f8-954c-a6d2cf397130")
+	)
+	(wire
+		(pts
+			(xy 229.87 148.59) (xy 229.87 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581ab5c3-8eb8-458b-ae36-a0691cd32c07")
+	)
+	(wire
+		(pts
+			(xy 208.28 91.44) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a70830d-3ab6-4743-9ca6-f582c6d683eb")
+	)
+	(wire
+		(pts
+			(xy 96.52 29.21) (xy 99.06 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad9a6dc-0e22-403a-9e2f-69d464722d5d")
+	)
+	(wire
+		(pts
+			(xy 39.37 134.62) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c56f340-2a79-4bb8-8948-b883fd9acdb2")
+	)
+	(wire
+		(pts
+			(xy 130.81 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc726d1-2d32-47f7-b077-a49f4280c1fa")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.84) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d26f16f-ab31-430b-b361-d9d4794cc2d8")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 130.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddbb79a-2a4c-4ded-b6b0-4be1a6c59e50")
+	)
+	(wire
+		(pts
+			(xy 130.81 68.58) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffcfce7-cca7-43d6-bbff-2c04eef6dfc5")
+	)
+	(wire
+		(pts
+			(xy 229.87 128.27) (xy 229.87 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608a5eac-90b1-4ba8-9658-126fb79600c2")
+	)
+	(wire
+		(pts
+			(xy 130.81 52.07) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d61526-2827-46e8-a3d2-33c86f70b37b")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 138.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af22cbe-34fc-4953-bafc-3c7fc47fca88")
+	)
+	(wire
+		(pts
+			(xy 39.37 29.21) (xy 73.66 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d36a1ec-2137-4500-b459-899b11b99c86")
+	)
+	(wire
+		(pts
+			(xy 140.97 135.89) (xy 138.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7011e95e-f742-496f-a49a-db67a9e2d094")
+	)
+	(wire
+		(pts
+			(xy 138.43 139.7) (xy 138.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7409a3fe-c344-424a-b26f-fa6964d5c9ca")
+	)
+	(wire
+		(pts
+			(xy 208.28 73.66) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7521d983-7051-433c-b772-78618587211f")
+	)
+	(wire
+		(pts
+			(xy 39.37 116.84) (xy 39.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f7d69d-cd34-48b5-a97d-c4763cc63c03")
+	)
+	(wire
+		(pts
+			(xy 130.81 63.5) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfac964-459f-4156-bbef-59ce0b84adaf")
+	)
+	(wire
+		(pts
+			(xy 208.28 38.1) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee273bc-9b55-489a-81b9-23168647672e")
+	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 96.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8810fced-81bf-46b8-abf8-dad0d1c86c5f")
+	)
+	(wire
+		(pts
+			(xy 39.37 170.18) (xy 73.66 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8729b4-3ca8-46fd-bda3-66493dc7a225")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90299a1e-c6f3-4194-9aaf-9cd8ea19e828")
+	)
+	(wire
+		(pts
+			(xy 39.37 152.4) (xy 73.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91606f72-0b74-4433-bf63-339088e1d05c")
+	)
+	(wire
+		(pts
+			(xy 96.52 134.62) (xy 96.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935caf98-458e-4064-92d3-78d029fb8834")
+	)
+	(wire
+		(pts
+			(xy 39.37 116.84) (xy 73.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976ab79e-8f14-436d-a7e9-9c5c44b4f203")
+	)
+	(wire
+		(pts
+			(xy 208.28 167.64) (xy 229.87 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fbd70c-e8ea-4f97-a637-38be992967c4")
+	)
+	(wire
+		(pts
+			(xy 138.43 135.89) (xy 138.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9afeab-3c34-47fb-9d25-e54ce215c246")
+	)
+	(wire
+		(pts
+			(xy 39.37 29.21) (xy 39.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8e7f3e-908b-4901-8b86-4e4ced5b5848")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1879e40-1f8c-4144-93fb-30e64f1aa581")
+	)
+	(wire
+		(pts
+			(xy 208.28 128.27) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d2c126-efdf-437b-acd0-56af4e715d9d")
+	)
+	(wire
+		(pts
+			(xy 208.28 20.32) (xy 231.14 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86ec9cc-92e4-4b13-9428-b044b1f84509")
+	)
+	(wire
+		(pts
+			(xy 96.52 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88f7d98-636d-406d-95ab-92457213ca4f")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 99.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a994e5b6-a882-47b8-bf5c-a3d4df31e8ec")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad462695-b084-48e4-a715-c28f66cd07bd")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 73.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad962ca6-3fc7-4a4e-9655-eb7cdf45d301")
+	)
+	(wire
+		(pts
+			(xy 237.49 135.89) (xy 229.87 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf37457-3859-4c15-9643-c5a99d90e2cf")
+	)
+	(wire
+		(pts
+			(xy 208.28 148.59) (xy 229.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afde14e0-7d1e-4693-a3ba-75bfb79bb522")
+	)
+	(wire
+		(pts
+			(xy 96.52 52.07) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef3d6e9-4680-48ef-8a94-a0b8b89e66ee")
+	)
+	(wire
+		(pts
+			(xy 73.66 152.4) (xy 73.66 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02c3e7a-a373-481a-b343-6c7eab10714e")
+	)
+	(wire
+		(pts
+			(xy 96.52 81.28) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54513c5-689b-455a-a726-e6a9fa72d5d4")
+	)
+	(wire
+		(pts
+			(xy 73.66 46.99) (xy 73.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1e5b06-1c21-49b5-b183-4d72a417bbaf")
+	)
+	(wire
+		(pts
+			(xy 96.52 170.18) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca602224-5ea1-4622-9686-cbfb0b9d247c")
+	)
+	(wire
+		(pts
+			(xy 96.52 175.26) (xy 138.43 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd80e12-6871-4366-8c0a-df5e9ee72c8c")
+	)
+	(wire
+		(pts
+			(xy 39.37 63.5) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc731f6d-8e79-4b7c-a168-9be9c7a38009")
+	)
+	(wire
+		(pts
+			(xy 39.37 97.79) (xy 39.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91e6563-0694-4e88-a7dc-7af415688a2a")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e03d78-5dec-4a9c-9aab-0f21074522b3")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db016c75-5be4-4dc5-b362-603ff9369920")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8cd43c-aa4a-4c76-a1ee-22748dea6452")
+	)
+	(wire
+		(pts
+			(xy 39.37 81.28) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc66975a-5b3e-4778-9487-48ead77e0ac4")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 39.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9f62fa-bcf2-40f9-be91-4a4670c3d049")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea2bd89-a9f2-4519-8545-c67c88c7cd41")
+	)
+	(wire
+		(pts
+			(xy 73.66 29.21) (xy 73.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ddc790-8e69-4b32-9b18-a0f352bf4d55")
+	)
+	(wire
+		(pts
+			(xy 208.28 109.22) (xy 229.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f19780-ad93-4e08-8136-52119ae2379c")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7184c0f-a295-4d80-8199-1c38fb54b174")
+	)
+	(wire
+		(pts
+			(xy 229.87 135.89) (xy 229.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72b9c3d-a45a-4f52-ad64-e57e79ebdef4")
+	)
+	(wire
+		(pts
+			(xy 96.52 68.58) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e733adc9-d9ce-45c3-96b6-a9c53891fcf3")
+	)
+	(wire
+		(pts
+			(xy 73.66 99.06) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ad4e94-f6ff-4a19-9b3a-515bc398ef3e")
+	)
+	(wire
+		(pts
+			(xy 39.37 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f258887f-4795-47c3-a96a-0fedcf1eeb7f")
+	)
+	(wire
+		(pts
+			(xy 96.52 46.99) (xy 99.06 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe62a4a3-5844-4a4c-bd68-5a11c44fa90a")
+	)
+	(hierarchical_label "AnodeLedJoueur2_7"
+		(shape input)
+		(at 195.58 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00303384-4a60-4a8c-bb8c-dcefe0c8cf94")
+	)
+	(hierarchical_label "AnodeLedJoueur2_8"
+		(shape input)
+		(at 195.58 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "041e7c2c-e6d4-42eb-9d6a-e0bd1efc30c9")
+	)
+	(hierarchical_label "AnodeLedJoueur2_7"
+		(shape input)
+		(at 73.66 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1126d43a-bdce-4c06-8ef1-56862f61bd69")
+	)
+	(hierarchical_label "AnodeLedJoueur2_9"
+		(shape input)
+		(at 195.58 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e4e03b2-c11c-4919-97df-0ca8b48abdfd")
+	)
+	(hierarchical_label "AnodeLedJoueur2_3"
+		(shape input)
+		(at 195.58 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24f09462-4ad7-4fa5-8e12-6a693513242c")
+	)
+	(hierarchical_label "AnodeLedJoueur2_2"
+		(shape input)
+		(at 195.58 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25b5b91d-e3df-4a12-8afa-8c7e64f367af")
+	)
+	(hierarchical_label "AnodeLedJoueur2_6"
+		(shape input)
+		(at 73.66 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30c804bf-2b96-44dc-a632-ee31dc2d880d")
+	)
+	(hierarchical_label "BoutonJ2_3"
+		(shape output)
+		(at 99.06 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "442eab6e-cc20-4b89-994a-ec96a7a9435c")
+	)
+	(hierarchical_label "BoutonJ2_4"
+		(shape output)
+		(at 99.06 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53990186-2fa1-4c72-8388-1c26ab987889")
+	)
+	(hierarchical_label "BoutonJ2_2"
+		(shape output)
+		(at 99.06 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "568d5fa1-1410-4dec-9d8b-e7b212f3f233")
+	)
+	(hierarchical_label "Vcc Bouton J2"
+		(shape input)
+		(at 34.29 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a97e64c-13ed-49e5-91ed-fc3520ed7672")
+	)
+	(hierarchical_label "AnodeLedJoueur2_1"
+		(shape input)
+		(at 73.66 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b991275-d8a0-4379-8d0e-6db98e6d57de")
+	)
+	(hierarchical_label "BoutonJ2_1"
+		(shape output)
+		(at 99.06 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71b32268-75a2-495a-b632-95e8201ab2c9")
+	)
+	(hierarchical_label "AnodeLedJoueur2_3"
+		(shape input)
+		(at 73.66 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79957591-ac7a-4290-b39f-23cc4cf5fc76")
+	)
+	(hierarchical_label "BoutonJ2_7"
+		(shape output)
+		(at 99.06 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89df698a-a4ac-4d85-8a96-2c95154f91f3")
+	)
+	(hierarchical_label "BoutonJ2_6"
+		(shape output)
+		(at 99.06 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ee36503-723d-4483-928e-d132574bdb4f")
+	)
+	(hierarchical_label "AnodeLedJoueur2_9"
+		(shape input)
+		(at 73.66 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a6d0548-ab4e-4c70-be18-965c198506f0")
+	)
+	(hierarchical_label "AnodeLedJoueur2_4"
+		(shape input)
+		(at 73.66 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a217f039-17fc-4940-83ee-777e95fc7e5c")
+	)
+	(hierarchical_label "AnodeLedJoueur2_5"
+		(shape input)
+		(at 195.58 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3b2beda-e1ee-4951-8f14-03c3e9a5da31")
+	)
+	(hierarchical_label "CathodeLedJoueur2_2"
+		(shape output)
+		(at 237.49 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae415fe3-4279-41bc-a9c6-a696ebd3d437")
+	)
+	(hierarchical_label "BoutonJ2_5"
+		(shape output)
+		(at 99.06 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b98480c6-2c8a-40c1-9487-0d64762412d1")
+	)
+	(hierarchical_label "AnodeLedJoueur2_8"
+		(shape input)
+		(at 73.66 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9d8da6d-280e-4f62-8e1d-0f37deecb561")
+	)
+	(hierarchical_label "AnodeLedJoueur2_1"
+		(shape input)
+		(at 195.58 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be401acb-affe-4034-a932-1865dcdd60ad")
+	)
+	(hierarchical_label "BoutonJ2_9"
+		(shape output)
+		(at 99.06 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c21fb7a5-9333-4a0c-8b84-dadd0698d3ac")
+	)
+	(hierarchical_label "AnodeLedJoueur2_6"
+		(shape input)
+		(at 195.58 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd93114c-9498-4e11-bc7d-500527f979b2")
+	)
+	(hierarchical_label "CathodeLedJoueur2"
+		(shape output)
+		(at 140.97 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cff9017b-eaee-415c-80ed-012c68d889d4")
+	)
+	(hierarchical_label "CathodeLedJoueur2"
+		(shape output)
+		(at 240.03 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0739f7b-2883-4bde-887f-1701f9703e84")
+	)
+	(hierarchical_label "AnodeLedJoueur2_4"
+		(shape input)
+		(at 195.58 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eff48004-c56d-47ca-a1a2-b299cd5c476d")
+	)
+	(hierarchical_label "CathodeLedJoueur2_2"
+		(shape output)
+		(at 140.97 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3b995d2-1f73-439f-be8d-c849ea564959")
+	)
+	(hierarchical_label "AnodeLedJoueur2_5"
+		(shape input)
+		(at 73.66 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5fbc0af-1dfa-42d3-91ef-8a586dbd5c1d")
+	)
+	(hierarchical_label "BoutonJ2_8"
+		(shape output)
+		(at 99.06 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9988d91-3bd5-4cb8-96f8-4d86c11d6c68")
+	)
+	(hierarchical_label "AnodeLedJoueur2_2"
+		(shape input)
+		(at 73.66 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbd5df9f-fa0b-4950-8060-a4bde66b06a8")
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f0db6d9-8c19-4b72-a03d-ac01543a3ce6")
+		(property "Reference" "LED25"
+			(at 201.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "991f0db1-8380-42bd-9adb-4e22d81531bb")
+		)
+		(pin "3"
+			(uuid "d3c0d509-cd3d-44d4-9901-a744179612d7")
+		)
+		(pin "2"
+			(uuid "e62a4007-f22d-48d0-a521-27b4958b3f46")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3267754d-84d9-43c5-af00-4945bb721b3d")
+		(property "Reference" "LED21"
+			(at 201.93 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e07c9294-f0e8-49e0-813e-84c9bcaab979")
+		)
+		(pin "3"
+			(uuid "d2c5f17a-b5aa-4d2c-b8d0-59bef3ff919e")
+		)
+		(pin "2"
+			(uuid "1306e54d-046c-4fdc-bb0b-9683d2db6f0b")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38d55305-8bbd-4d5f-80d2-40ec2909fae7")
+		(property "Reference" "LED22"
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "011bd7cd-23d6-44b6-a7d0-edd41a3c638c")
+		)
+		(pin "3"
+			(uuid "57b71fec-171e-45b4-a975-12ed65c238e8")
+		)
+		(pin "2"
+			(uuid "cbefabfb-87ad-4d42-8e88-1a6baf6a7fd2")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c245f4d-3366-4ab2-8822-c6034fc14460")
+		(property "Reference" "LED28"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec5bc1fd-ca34-4b19-90c9-b94195a1c667")
+		)
+		(pin "3"
+			(uuid "d343cfc6-5b26-49d5-9cab-ff50539b471d")
+		)
+		(pin "2"
+			(uuid "83dfe88c-ee07-4693-ab7b-3cf98f6ae519")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "557f3239-fb75-4ae2-8dc5-1f2fd5ae0f03")
+		(property "Reference" "BoutonLedJ2_9"
+			(at 85.09 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27d96f66-8f8d-4689-8ecc-a8678ab6595d")
+		)
+		(pin "1"
+			(uuid "1d37eaf8-7180-4995-9a9a-f7c0114de86b")
+		)
+		(pin "5"
+			(uuid "ae65535d-856b-455d-887e-d93506511402")
+		)
+		(pin "3"
+			(uuid "8d323c80-9786-4a8a-86e8-5d08a092313f")
+		)
+		(pin "4"
+			(uuid "6e310e09-87e9-4a2c-9483-ad6b5e17b89f")
+		)
+		(pin "6"
+			(uuid "6ab4fbe6-3866-4507-b527-579a7228ee1e")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6498ca0e-fb6a-4f0b-bbd9-8c757c513bf3")
+		(property "Reference" "BoutonLedJ2_4"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6fa3f1e-069e-41e7-97e4-9d8467d2a1aa")
+		)
+		(pin "1"
+			(uuid "b2c4cfe5-6b4a-4fb1-8fb5-1a7b2e1e9742")
+		)
+		(pin "5"
+			(uuid "6ea02886-61cf-4b43-b2af-4c3ecdf06ddb")
+		)
+		(pin "3"
+			(uuid "6b1b0612-3b81-4a95-9106-89a0126e3b39")
+		)
+		(pin "4"
+			(uuid "3a75c944-8226-4097-9756-f14f5b064004")
+		)
+		(pin "6"
+			(uuid "74589c20-1461-402b-bd2d-8bd427ca819d")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "739c2572-43ad-42ba-8899-418719d06564")
+		(property "Reference" "LED24"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d43855eb-ab95-4901-b2e2-eb10bf89bd9b")
+		)
+		(pin "3"
+			(uuid "8e4e2aed-57ca-4b95-bca3-70f2bfb7b0f5")
+		)
+		(pin "2"
+			(uuid "b69dee81-9628-4b73-b7d8-ca3cb51fa638")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "804ec1da-3695-4cdc-8f9b-3a65d98fbbb3")
+		(property "Reference" "BoutonLedJ2_6"
+			(at 85.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32b50ef5-d4bd-46f6-83b7-3fa1269e7f70")
+		)
+		(pin "1"
+			(uuid "6829d347-7d04-4541-a535-6838c33a4774")
+		)
+		(pin "5"
+			(uuid "d2cf893d-d281-4fa4-9ff9-4805f6983609")
+		)
+		(pin "3"
+			(uuid "67cfa9eb-6662-448f-9b01-7e2c9a5310bd")
+		)
+		(pin "4"
+			(uuid "ca5ce587-369e-4bab-ad5c-cd1e8a597a09")
+		)
+		(pin "6"
+			(uuid "2010f468-29ce-4768-b75a-4e5bab8a00f5")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97e1ba51-e97d-4653-97a3-2a50dd46b997")
+		(property "Reference" "LED23"
+			(at 201.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a09807-f176-4582-a2b5-3f8d500d65c9")
+		)
+		(pin "3"
+			(uuid "7bc92d9e-d5ba-4e6f-b5d3-5aefbe0b7d94")
+		)
+		(pin "2"
+			(uuid "e57fbdab-43ee-49a4-aa9b-da88db7ca5f3")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ab94c2-c28a-465b-b4bb-205c9867b375")
+		(property "Reference" "LED29"
+			(at 201.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e44a9e1a-6ebe-400c-82d4-9467fe5fed90")
+		)
+		(pin "3"
+			(uuid "c87ceec9-63ca-4637-8d49-429e7696003c")
+		)
+		(pin "2"
+			(uuid "38215269-1711-462c-ac10-474a3c59322c")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9b3006-5018-4a9d-b71e-a04e046e51a5")
+		(property "Reference" "BoutonLedJ2_1"
+			(at 85.09 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e143cc4e-f35b-4a95-885f-1d50933e0e20")
+		)
+		(pin "1"
+			(uuid "c23fb648-720f-44b2-b7b3-926add6961c5")
+		)
+		(pin "5"
+			(uuid "b4eefa91-3472-4eae-aa85-ea3d8c6107a3")
+		)
+		(pin "3"
+			(uuid "752d8f5f-fce1-45ea-9445-9b79f39b5e5f")
+		)
+		(pin "4"
+			(uuid "e74815fb-6f4d-4d99-9ef0-0905097960e3")
+		)
+		(pin "6"
+			(uuid "d321af12-1a2f-459f-99cb-d9a02aed059a")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4ef10be-8ba9-49cc-8b35-73861b8ed04f")
+		(property "Reference" "LED27"
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e90f923-7dda-45ca-80ba-4cd63853315c")
+		)
+		(pin "3"
+			(uuid "1400448b-b542-43e8-a6b7-fc584ff23175")
+		)
+		(pin "2"
+			(uuid "a65dacdd-bdeb-4542-a48b-5d66b1c378cc")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 201.93 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f55a16-dccd-46a8-a31e-2f04c97192bc")
+		(property "Reference" "LED26"
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e7aa74-0697-4887-b78c-4b33197e7884")
+		)
+		(pin "3"
+			(uuid "4de63484-9289-4ffd-a6be-59cdd5079685")
+		)
+		(pin "2"
+			(uuid "4947867d-f0b2-4914-8096-154897f3f41b")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac038859-3b4d-4fe4-be45-749c366d9726")
+		(property "Reference" "BoutonLedJ2_7"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc90f5bd-cd2f-4a1d-b849-3626eddb275a")
+		)
+		(pin "1"
+			(uuid "82b28594-c33f-4556-ad44-4e078f65d14f")
+		)
+		(pin "5"
+			(uuid "b9e57c51-2e2b-44a7-80fa-733365a2b430")
+		)
+		(pin "3"
+			(uuid "3dbabb22-ea66-445b-bac7-bd5f8c7dc7b5")
+		)
+		(pin "4"
+			(uuid "fa2cf57e-2522-496b-ac91-63efff5178a9")
+		)
+		(pin "6"
+			(uuid "dd258f87-580f-43c9-9739-9c86239530eb")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c639bbb6-13db-4868-a729-54cd9090c13f")
+		(property "Reference" "BoutonLedJ2_5"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b17b88c7-6470-4bfb-859c-ff962a133dad")
+		)
+		(pin "1"
+			(uuid "3fa6cb73-272c-4d48-9f56-ff50f3f0b5c7")
+		)
+		(pin "5"
+			(uuid "c6a36f96-2d04-4d8e-97b3-6241a927a9a0")
+		)
+		(pin "3"
+			(uuid "90819811-2b33-4372-980f-d0adddfcac84")
+		)
+		(pin "4"
+			(uuid "f5eda8bd-c592-471b-a027-95d28f223f45")
+		)
+		(pin "6"
+			(uuid "174e909f-f31d-44d6-801f-9e78b5aca6c2")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8fe64c7-ffb2-4979-aa25-ccbcccc326d0")
+		(property "Reference" "BoutonLedJ2_8"
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81a78071-a432-4523-8c07-cbda7e6e6b2e")
+		)
+		(pin "1"
+			(uuid "b7054c9c-8f69-45e8-89ff-d3aaaad6ab53")
+		)
+		(pin "5"
+			(uuid "411ef09a-2079-41ee-9a3c-f0b6448d1ed3")
+		)
+		(pin "3"
+			(uuid "58706b91-de89-4b3d-a991-9174e61d3403")
+		)
+		(pin "4"
+			(uuid "859c045b-5122-4598-a65d-4d1d69d782ab")
+		)
+		(pin "6"
+			(uuid "d9088b25-8bd6-4cd8-b643-5e50058f75f6")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b6a356-7084-4beb-a6b3-a9580054299a")
+		(property "Reference" "BoutonLedJ2_2"
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28fde4db-405e-4cbd-87b2-5a9922b4d371")
+		)
+		(pin "1"
+			(uuid "d4dcf9c7-8742-4ffa-9e02-fe3a31b13e63")
+		)
+		(pin "5"
+			(uuid "210bfdbe-1e48-4a20-8569-2d98b500bdd1")
+		)
+		(pin "3"
+			(uuid "c3a49a85-58d3-4f23-9a17-8ed43c5ecc1f")
+		)
+		(pin "4"
+			(uuid "c5ce3749-e3a1-41e2-94da-e167def6637a")
+		)
+		(pin "6"
+			(uuid "114be55f-049a-4990-acb9-0d2558705c8e")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6MM SWITCH WITH LED GFN:SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13")
+		(at 78.74 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f49c6ca9-3cc5-4a15-a76e-5d86329cb39d")
+		(property "Reference" "BoutonLedJ2_3"
+			(at 85.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCHLIB_Tactile-Switch-with-LED-GFN_2024-07-13"
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:6MM SWITCH WITH LED GFN"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "New SchematicLib"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Omten Electronics"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C354964"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e1daef3-4830-46d5-b7b7-162ba5c83d67")
+		)
+		(pin "1"
+			(uuid "47784bfb-eb1e-46a8-b60e-f9c1bf24c73d")
+		)
+		(pin "5"
+			(uuid "b363c8dc-5c25-45db-beba-221e280a0556")
+		)
+		(pin "3"
+			(uuid "4cab2ec8-c877-481a-ad22-6169a7d8d51b")
+		)
+		(pin "4"
+			(uuid "96c5b827-b6a1-4adf-a36e-c0e4a2efaf76")
+		)
+		(pin "6"
+			(uuid "86cea758-67b9-47c1-86b8-096f42a0beef")
+		)
+		(instances
+			(project "Light_Light"
+				(path "/9ad80a78-4685-4d2b-a875-464a3a0da717/94158ea4-7440-4d4e-934c-9e68b0710159"
+					(reference "BoutonLedJ2_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
